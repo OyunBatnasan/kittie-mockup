@@ -1,0 +1,36 @@
+body {
+  font-size: 20px;
+  background-color: white;
+  padding:10px;
+  margin: 50px;
+}
+
+/*Global*/
+.container {
+  width:100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #00FFFF;
+  color: white;
+  padding:30px,
+  margin: 10px;
+  font-size: 30px;
+
+}
+section #branding{
+  float:left;
+  margin:0;
+
+nav {
+  float: right;
+  margin-top:10px;
+}
+}
+
+ul{
+  margin:0;
+  padding: 0;
+}
