@@ -1,8 +1,7 @@
 body {
   font-size: 20px;
   background-color: white;
-  padding:10px;
-  margin: 50px;
+  margin: 0;
 }
 
 /*Global*/
@@ -13,24 +12,98 @@ body {
 }
 
 header {
-  background-color: #00FFFF;
+  background-color: #059E9F;
   color: white;
-  padding:30px,
-  margin: 10px;
-  font-size: 30px;
-
+  padding: 40px;
+  font-weight: bold;
 }
-section #branding{
-  float:left;
-  margin:0;
+
+header p{
+  font-size: 25px;
+  font-style: italic;
+}
 
 nav {
-  float: right;
-  margin-top:10px;
-}
+  background:lightgrey;
+  padding: 10px;
+  font-weight: bold;
 }
 
-ul{
-  margin:0;
-  padding: 0;
+#menu li{
+  display: inline;
+  margin-left: 10px;
+}
+
+#menu li:after{
+  content:"/";
+  margin-left: 10px;
+}
+
+#main{
+  font-size: 15px;
+}
+
+section{
+  background: white;
+  width: 55%;
+  float: left;
+  margin: 20px
+}
+
+.highlight{
+  margin-bottom: 80px;
+}
+
+.highlight h1{
+  color: skyblue;
+  font-weight: bold;
+}
+
+#dark{
+  color: black;
+}
+
+#blue{
+  color: skyblue;
+}
+
+aside{
+  background: white;
+  font-size: 15px;
+  float: right;
+  width: 35%;
+  margin: 20px;
+}
+
+#sidebar h5, h6 {
+  font-size: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer{
+  background: black;
+  text-align: center;
+  color: lightgrey;
+  font-size: 10px;
+  padding: 50px;
+}
+
+#footer-menu{
+  color:white;
+  font-size: 10px;
+}
+
+#footer-menu li{
+  display: inline;
+  margin-left: 20px;
+}
+
+#footer-menu li:after{
+  content:"/";
+  margin-left: 10px;
 }
