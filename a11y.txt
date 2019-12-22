@@ -1,0 +1,8 @@
+Followings are features that I used for Kitties project
+
+- I have added descriptive text for image using alt tag
+- I have used header/semantic elements in hierarchical order
+- made clickable text in link meaningful
+- changed page title to unique descriptive and meaningful text
+- made all text in page enlargeable
+ 

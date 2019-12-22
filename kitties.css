@@ -6,8 +6,8 @@ body {
 
 /*Global*/
 .container {
-  width:100%;
-  margin:auto;
+  width: 100%;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -18,56 +18,56 @@ header {
   font-weight: bold;
 }
 
-header p{
+header p {
   font-size: 25px;
   font-style: italic;
 }
 
 nav {
-  background:lightgrey;
+  background: lightgrey;
   padding: 10px;
   font-weight: bold;
 }
 
-#menu li{
+#menu li {
   display: inline;
   margin-left: 10px;
 }
 
-#menu li:after{
-  content:"/";
+#menu li:after {
+  content: "/";
   margin-left: 10px;
 }
 
-#main{
+#main {
   font-size: 15px;
 }
 
-section{
+section {
   background: white;
   width: 55%;
   float: left;
   margin: 20px
 }
 
-.highlight{
+.highlight {
   margin-bottom: 80px;
 }
 
-.highlight h1{
+.highlight h1 {
   color: skyblue;
   font-weight: bold;
 }
 
-#dark{
+#dark {
   color: black;
 }
 
-#blue{
+#blue {
   color: skyblue;
 }
 
-aside{
+aside {
   background: white;
   font-size: 15px;
   float: right;
@@ -85,7 +85,7 @@ aside{
   display: table;
 }
 
-footer{
+footer {
   background: black;
   text-align: center;
   color: lightgrey;
@@ -93,17 +93,17 @@ footer{
   padding: 50px;
 }
 
-#footer-menu{
-  color:white;
+#footer-menu {
+  color: white;
   font-size: 10px;
 }
 
-#footer-menu li{
+#footer-menu li {
   display: inline;
   margin-left: 20px;
 }
 
-#footer-menu li:after{
-  content:"/";
+#footer-menu li:after {
+  content: "/";
   margin-left: 10px;
 }
